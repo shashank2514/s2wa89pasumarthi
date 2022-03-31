@@ -13,12 +13,12 @@ if (x == undefined) {
 }
 
 let fround = Math.fround(x) 
-let random = Math.random(x)
+let random1 = Math.random(x)
 let round = Math.round(x) 
 
 res.render('computation', {
   title: 'Computation of Math functions',
-  values: `Math.fround(),Math.random(),Math.round() are applied to ` + x + ` is ` + fround + `,` + random + `,` + round 
+  values: `Math.fround(),Math.random(),Math.round() are applied to ` + x + ` is ` + fround + `,` + random1 + `,` + round 
 });
 });
 
